@@ -68,7 +68,7 @@ public abstract class PulsarMessage implements Message {
   private Destination jmsReplyTo;
   private Destination destination;
   private int deliveryMode = Message.DEFAULT_DELIVERY_MODE;
-  private String jmsType;
+  private String jmsType="text";
   private boolean jmsRedelivered;
   private volatile long jmsExpiration;
   private volatile long jmsDeliveryTime;
